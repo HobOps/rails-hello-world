@@ -29,4 +29,4 @@ El archivo settings es de Django, En rails para especificar las configuraciones 
 
 ### ¿que es puma? Me suena a que es el equivalente a gunicorn
 Puma es un servidor web desarrollado en Ruby que se puede utilizar en aplicaciones de Ruby on Rails. Se ha diseñado para ser rápido, ligero y escalable, y se puede utilizar para manejar una gran cantidad de solicitudes concurrentes, en efecto es el homònimo de `gunicorn` en python.
-Para utilizar Puma en una aplicación de Rails, primero debe agregar la gema puma a su archivo Gemfile y ejecutar el comando bundle install para instalarla. Luego, puede configurar Puma en su archivo `config/puma.rb` y ejecutar el comando rails server puma para iniciar el servidor Puma.
+Para utilizar Puma en una aplicación de Rails, primero debe agregar la gema puma a su archivo Gemfile y ejecutar el comando bundle install para instalarla. Luego, puede configurar Puma en su archivo `config/puma.rb` y ejecutar el comando `bundle exec puma -C config/puma.rb` para iniciar el servidor Puma.
