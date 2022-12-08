@@ -3,7 +3,7 @@
 ### ¿hay algún equivalente a django? 
 Sì, `Rails` es el framework mas desarrollado en el ambiente del lenguaje ruby. Se puede instalar con el comando `gem install rails`. Es comùn llamar a Rails como `Ruby on Rails` tambien.
 
-### ¿cómo funciona esa madre de las gemas? 
+### ¿cómo funciona eso de las gemas? 
 Son los equivalentes a los paquetes de python que se instalan con Pip. 
 Las Gemas de Ruby son paquetes de código que se pueden utilizar en aplicaciones de Ruby para agregar funcionalidades adicionales.  Se han creado para resolver problemas comunes en el desarrollo de aplicaciones de Ruby, como el manejo de bases de datos, el procesamiento de formularios, la autenticación de usuarios y muchas otras cosas. Existen miles de gemas disponibles en la comunidad de Ruby, y se pueden utilizar en cualquier aplicación de Ruby para agregar funcionalidades adicionales. Para instalar una gema se ejecuta el archivo `gem install (nombre_gema)`, para instalar la gema rails se ejecutará `gem install rails`
 
